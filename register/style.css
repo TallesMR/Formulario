@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Space+Mono&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+body {
+    font-size: 100%;
+    height: 1200px;
+    width: 1700px;
+    background-color: #00141F;
+}
+
+.formulario {
+    display: block;
+    flex-direction: column;
+    margin-left: 410px;
+    margin-top: 80px;
+    width: 430px;
+    height: 750px;	
+    background-image: linear-gradient(to top , #4743F5, #A438FF, #E655D5);
+    border: #fff solid 5px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+a {
+    width: 70px;
+    padding-left: 21px;
+}
+.formulario-back {
+    padding-left: 15px;
+}
+
+.formulario-cabecalho {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+    height: 30px;
+    padding: 50px;
+
+}
+
+.formulario-titulo {
+    display: block;
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    margin: 20px;
+    margin-left: 30px;
+    padding: 50px;
+    padding-right: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 40px;
+    border: #fff solid;
+    border-radius: 5px;
+}
+
+.formulario-menu {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.formulario-menu-label {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Space Mono', monospace;
+    font-size: 22px;
+    margin-top: 12px;
+    margin-bottom: 2px;
+}
+
+.formulario-menu-campo {
+    align-self: center;
+    width: 270px;
+    border: #00141F solid 2px;
+    height: 26px;
+    border-radius: 5px;
+}
+
+.formulario-btn {
+    align-self: center;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    opacity: 90%;
+    background-color: #FC5551;
+    border-radius: 13px;
+    font-family: 'Space Mono', monospace;
+}
+
+.formulario-btn:hover {
+    background-color: #F27F4E;
+    transition: 0.5;
+    opacity: 80%;
+}
